@@ -1,0 +1,10 @@
+[project]
+name = "claude-agent-relay-guard"
+version = "0.1.0"
+description = "Claude Code のサブエージェント多段委譲（再委譲・多段リレー）を hooks で機械的に防ぐ最小構成サンプル"
+requires-python = ">=3.11"
+dependencies = []
+
+# テストは標準ライブラリの unittest のみで完結します（外部依存なし）。
+#   uv run python -m unittest discover -s .claude/tests -t .claude/tests -v
+# uv を使わない場合は python3 でもそのまま実行できます。

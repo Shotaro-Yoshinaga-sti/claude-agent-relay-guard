@@ -1,0 +1,7 @@
+# Agent 呼び出し履歴（hook が実行時に生成する状態ファイル）
+.claude/agent-calls/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
